@@ -3,6 +3,7 @@ import Product from './Product';
 import Navbar from './Navbar';
 import Header from './Header';
 import FeatureSection from './FeatureSection';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Header></Header>
             <Product></Product>
             <FeatureSection></FeatureSection>
+            <Footer></Footer>
         </div>
     );
 };
