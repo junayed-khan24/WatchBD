@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../src/assets/images.jfif"; // 
+import banner from "../../src/assets/bannerimg.png"; // 
 
 const Header = () => {
   return (

@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* Left */}
       <div className="navbar-start">
         <div className="dropdown lg:hidden">
-          <label tabIndex={0} className="btn btn-ghost">
+          <label tabIndex={0} className="btn btn-ghost ">
             ☰
           </label>
           <ul
@@ -16,8 +16,8 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/mens">Men’s</Link></li>
-            <li><Link to="/womens">Women’s</Link></li>
+            <li><Link to="/">Men’s</Link></li>
+            <li><Link to="/">Women’s</Link></li>
           </ul>
         </div>
 
