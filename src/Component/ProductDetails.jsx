@@ -1,11 +1,12 @@
 import React from "react";
 import { useParams, Link } from "react-router";
+import watchImg from "../../src/assets/watch.png";
 
 const products = [
   {
     id: "1",
     name: "Round Dial",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 400,
     rating: 4,
     description: "Classic round dial watch with premium finishing.",
@@ -13,7 +14,7 @@ const products = [
   {
     id: "2",
     name: "Golden Classical",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 400,
     rating: 5,
     description: "Luxury golden watch for elegant style.",
@@ -21,7 +22,7 @@ const products = [
   {
     id: "3",
     name: "Stainless Steel",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 500,
     rating: 5,
     description: "Strong stainless steel watch with modern design.",
@@ -29,7 +30,7 @@ const products = [
   {
     id: "4",
     name: "Romani Semi",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 200,
     rating: 4,
     description: "Affordable semi-classic watch for daily use.",
@@ -37,33 +38,37 @@ const products = [
   {
     id: "5",
     name: "Romani Semi",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 200,
     rating: 4,
     description: "Affordable semi-classic watch for daily use.",
-  },{
+  },
+  {
     id: "6",
     name: "Romani Semi",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 200,
     rating: 4,
     description: "Affordable semi-classic watch for daily use.",
-  },{
+  },
+  {
     id: "7",
     name: "Romani Semi",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 200,
     rating: 4,
     description: "Affordable semi-classic watch for daily use.",
-  },{
+  },
+  {
     id: "8",
     name: "Romani Semi",
-    image:"../../src/assets/watch.png",
+    image: watchImg,
     price: 200,
     rating: 4,
     description: "Affordable semi-classic watch for daily use.",
   },
 ];
+
 
 const ProductDetails = () => {
   const { id } = useParams();
