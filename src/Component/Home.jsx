@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import FeatureSection from './FeatureSection';
 import Footer from './Footer';
+import ClientFeedback from './ClientFeedback';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Header></Header>
             <Product></Product>
             <FeatureSection></FeatureSection>
+            <ClientFeedback></ClientFeedback>
             <Footer></Footer>
         </div>
     );
