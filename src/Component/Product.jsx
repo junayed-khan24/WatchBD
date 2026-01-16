@@ -102,7 +102,7 @@ const Product = () => {
                   <input
                     key={i}
                     type="radio"
-                    className="mask mask-star-2 bg-red-500"
+                    className="mask mask-star-2 bg-yellow-400"
                     checked={i < product.rating}
                     readOnly
                   />

@@ -29,59 +29,59 @@ const feedbacks = [
     message:
       "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
   },
-  {
-    id: 4,
-    name: "Sophia Lee",
-    role: "Fashion Blogger",
-    image: "https://i.pravatar.cc/150?img=32",
-    rating: 4,
-    message:
-      "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
-  },
-  {
-    id: 5,
-    name: "Michael Smith",
-    role: "Entrepreneur",
-    image: "https://i.pravatar.cc/150?img=56",
-    rating: 5,
-    message:
-      "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
-  },
-  {
-    id: 6,
-    name: "Sophia Lee",
-    role: "Fashion Blogger",
-    image: "https://i.pravatar.cc/150?img=32",
-    rating: 4,
-    message:
-      "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
-  },
-  {
-    id: 7 ,
-    name: "Michael Smith",
-    role: "Entrepreneur",
-    image: "https://i.pravatar.cc/150?img=56",
-    rating: 5,
-    message:
-      "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
-  },{
-    id: 8,
-    name: "Sophia Lee",
-    role: "Fashion Blogger",
-    image: "https://i.pravatar.cc/150?img=32",
-    rating: 4,
-    message:
-      "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
-  },
-  {
-    id: 9,
-    name: "Michael Smith",
-    role: "Entrepreneur",
-    image: "https://i.pravatar.cc/150?img=56",
-    rating: 5,
-    message:
-      "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
-  },
+  // {
+  //   id: 4,
+  //   name: "Sophia Lee",
+  //   role: "Fashion Blogger",
+  //   image: "https://i.pravatar.cc/150?img=32",
+  //   rating: 4,
+  //   message:
+  //     "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Michael Smith",
+  //   role: "Entrepreneur",
+  //   image: "https://i.pravatar.cc/150?img=56",
+  //   rating: 5,
+  //   message:
+  //     "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Sophia Lee",
+  //   role: "Fashion Blogger",
+  //   image: "https://i.pravatar.cc/150?img=32",
+  //   rating: 4,
+  //   message:
+  //     "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
+  // },
+  // {
+  //   id: 7 ,
+  //   name: "Michael Smith",
+  //   role: "Entrepreneur",
+  //   image: "https://i.pravatar.cc/150?img=56",
+  //   rating: 5,
+  //   message:
+  //     "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
+  // },{
+  //   id: 8,
+  //   name: "Sophia Lee",
+  //   role: "Fashion Blogger",
+  //   image: "https://i.pravatar.cc/150?img=32",
+  //   rating: 4,
+  //   message:
+  //     "I love the elegant design. Perfect for both casual and formal outfits. Worth the price.",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Michael Smith",
+  //   role: "Entrepreneur",
+  //   image: "https://i.pravatar.cc/150?img=56",
+  //   rating: 5,
+  //   message:
+  //     "Excellent craftsmanship and premium feel. This is my second purchase and I’m impressed again.",
+  // },
 ];
 
 const ClientFeedback = () => {
