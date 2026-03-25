@@ -11,7 +11,7 @@ const FeatureSection = () => {
           <img
             src={banner}
             alt="Premium Watch"
-            className=" rounded-xl shadow-xl hover:scale-105 transition duration-300"
+            className=" rounded-xl shadow-xl hover:scale-105 transition duration-400"
           />
         </div>
 
