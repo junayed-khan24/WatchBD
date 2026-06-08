@@ -4,7 +4,7 @@ import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-white px-4 md:px-10 shadow-sm">
+    <div className="navbar fixed z-20 bg-white px-4 md:px-16 shadow-sm">
       {/* Left */}
       <div className="navbar-start">
         <div className="dropdown lg:hidden">
