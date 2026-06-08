@@ -81,7 +81,7 @@ const ProductDetails = () => {
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-16">
-      <Link to="/" className="text-red-500 mb-6 inline-block">
+      <Link to="/" className="text-red-500 mb-6 inline-block underline">
         ← Back to Products
       </Link>
 
