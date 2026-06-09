@@ -13,7 +13,6 @@ const Footer = () => {
           <img src={logo} alt="Logo" className="w-32 mb-4" />
           <p className="text-sm leading-relaxed">
             Premium watches designed for modern lifestyle.
-            Style and precision in every moment.
           </p>
         </div>
 
